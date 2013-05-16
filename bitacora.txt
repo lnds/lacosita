@@ -1,0 +1,2 @@
+Wed May 15 21:11:07 CLT 2013
+inicio proyecto en grails
