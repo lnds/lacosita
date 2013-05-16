@@ -1,2 +1,23 @@
 Wed May 15 21:11:07 CLT 2013
 inicio proyecto en grails
+
+Wed May 15 23:38:17 CLT 2013
+Al fin le dedique una hora aproximadamente para configurar un proyecto grails de cero usando grails 2.2.2.
+Al parecer hay algun problema con el plugin mongodb 1.2.0 y Grails 2.2.2 porque costó configurarlo sin hibernate, así que dejé hibernate con configuración default y use mapWith="mongo" en el domain Dato.
+
+Los tiempos que estoy obteniendo (usando wrk https://github.com/wg/wrk):
+
+
+Running 10s test @ http://localhost:8080/cosa-grails/create
+  2 threads and 10 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    19.87ms   28.05ms 183.91ms   90.15%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  6555 requests in 10.00s, 2.69MB read
+  Socket errors: connect 0, read 0, write 0, timeout 1
+Requests/sec:    655.34
+Transfer/sec:    275.16KB
+
+Fijense que la collection tiene una constraint para evitar duplicados en codigo.
+Estos tiempos son bastantes buenos para inserciones.
+
