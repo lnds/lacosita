@@ -1,7 +1,7 @@
-Wed May 15 21:11:07 CLT 2013
+-- Wed May 15 21:11:07 CLT 2013
 inicio proyecto en grails
 
-Wed May 15 23:38:17 CLT 2013
+-- Wed May 15 23:38:17 CLT 2013
 Al fin le dedique una hora aproximadamente para configurar un proyecto grails de cero usando grails 2.2.2.
 Al parecer hay algun problema con el plugin mongodb 1.2.0 y Grails 2.2.2 porque costó configurarlo sin hibernate, así que dejé hibernate con configuración default y use mapWith="mongo" en el domain Dato.
 
@@ -20,4 +20,38 @@ Transfer/sec:    275.16KB
 
 Fijense que la collection tiene una constraint para evitar duplicados en codigo.
 Estos tiempos son bastantes buenos para inserciones.
+
+-- Thu May 16 20:20:14 CLT 2013
+Implementado list, y modificado create.
+Modificamos el rearme para explicar el benchmark.
+
+Benchmark: 
+
+
+Running 10s test @ http://localhost:8080/cosa-grails/create
+  2 threads and 10 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    55.65ms   20.44ms 110.12ms   69.40%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  1825 requests in 10.00s, 4.85MB read
+  Socket errors: connect 0, read 0, write 0, timeout 1
+Requests/sec:    182.47
+Transfer/sec:    496.66KB
+
+
+Running 10s test @ http://localhost:8080/cosa-grails/list
+  2 threads and 10 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    21.53ms   32.71ms 208.38ms   92.31%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  5317 requests in 10.00s, 14.19MB read
+Requests/sec:    531.65
+Transfer/sec:      1.42MB
+
+
+-- Thu May 16 20:53:36 CLT 2013
+pausa para comer
+
+-- Thu May 16 21:32:14 CLT 2013
+programamos el despliegue de información
 
