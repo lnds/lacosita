@@ -1,0 +1,36 @@
+wrk /list
+=========
+
+Running 10s test @ http://localhost:8080/cosa-grails/list
+  2 threads and 10 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    39.83ms   27.71ms 122.75ms   85.29%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  2308 requests in 10.01s, 11.11MB read
+Requests/sec:    230.63
+Transfer/sec:      1.11MB
+
+wrk /jsonList
+=============
+
+Running 10s test @ http://localhost:8080/cosa-grails/jsonList
+  2 threads and 10 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    15.43ms   21.05ms 134.69ms   91.79%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  7492 requests in 10.00s, 19.98MB read
+Requests/sec:    749.07
+Transfer/sec:      2.00MB
+
+wrk /create
+===========
+
+
+Running 10s test @ http://localhost:8080/cosa-grails/create
+  2 threads and 10 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    60.36ms   27.90ms 131.69ms   66.17%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  1883 requests in 10.00s, 5.01MB read
+Requests/sec:    188.26
+Transfer/sec:    512.82KB
