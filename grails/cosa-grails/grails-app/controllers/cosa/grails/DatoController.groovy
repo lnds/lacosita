@@ -33,6 +33,7 @@ class DatoController {
 
     def list() {
         def k = randomService.nextLong()
+        println "k ->"+k
         def where = Dato.where {
             codigo > k
         }
