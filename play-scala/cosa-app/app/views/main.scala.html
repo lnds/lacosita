@@ -1,0 +1,20 @@
+@(title: String)(content: Html)
+
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>@title</title>
+        <link rel="stylesheet" media="screen" type="text/css" href="@routes.Assets.at("bootstrap/css/bootstrap.css")"/>
+        <style>
+        body {
+        	padding-top: 60px;
+        }
+        </style>
+    </head>
+    <body>
+        @content
+        <script src="http://code.jquery.com/jquery.js"></script>
+    	<script src="@routes.Assets.at("bootstrap/js/bootstrap.min.js")"></script>
+    </body>
+</html>
