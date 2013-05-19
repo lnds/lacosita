@@ -27,7 +27,54 @@ Evaluaremos:
 Los frameworks se evaluarán out of the box.
 
 
+Resultados
+==========
+
+Create:
+	Grails: 	91,37 request/sec generando 9.240 inserts
+	Scala-Play:   1285,51 request/sec generando 128.640 inserts
 
 
 
+List:
+	Grails:		88,85 request/sec
+	Scala-Play:    836,16 request/sec
 
+
+JsonList:
+	Grails:	        740,52 request/sec
+	Scala-Play:     984,82 request/sec
+
+
+Lineas de Código:
+
+Grails:
+
+
+http://cloc.sourceforge.net v 1.58  T=1.0 s (30.0 files/s, 2159.0 lines/s)
+-------------------------------------------------------------------------------
+Language                     files          blank        comment           code
+-------------------------------------------------------------------------------
+XML                             15             14              0           1000
+CSS                              3            135             23            629
+Groovy                          11             64             52            233
+Javascript                       1              0              0              9
+-------------------------------------------------------------------------------
+SUM:                            30            213             75           1871
+-------------------------------------------------------------------------------
+
+
+Scala-Play:
+
+http://cloc.sourceforge.net v 1.58  T=0.5 s (24.0 files/s, 19538.0 lines/s)
+-------------------------------------------------------------------------------
+Language                     files          blank        comment           code
+-------------------------------------------------------------------------------
+CSS                              4            976             42           6276
+Javascript                       2            549            331           1406
+HTML                             3             16              0             74
+Scala                            2             24              2             67
+XML                              1              0              0              6
+-------------------------------------------------------------------------------
+SUM:                            12           1565            375           7829
+-------------------------------------------------------------------------------
