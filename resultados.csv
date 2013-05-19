@@ -1,0 +1,9 @@
+framewor;action;time[secs];threads;connections;request/sec;transfer/sec;inserts
+play-scala;create;10;2;10;1285,51;1,22mb;128640
+play-scala;list;10;2;10;836,16;3,76mb;0
+play-scala;jsonList;10;2;10;984,82;0,93mb;0
+grails;create;10;2;10;91,37;247,86kb;9240
+grails;list;10;2;10;88,85;437,22kb;0
+grails;jsonList;10;2;10;740,52;1,96mb;0
+
+
