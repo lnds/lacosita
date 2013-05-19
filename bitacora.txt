@@ -55,3 +55,38 @@ pausa para comer
 -- Thu May 16 21:32:14 CLT 2013
 programamos el despliegue de información
 
+-- Sun May 19 13:46:21 CLT 2013
+
+Entre el sábado y hoy le dedicamos en total unas 6 horas para armar el proyecto Scala Play Framework.
+
+Los tiempos que tenemos son:
+
+
+Running 10s test @ http://localhost:9000/create
+  2 threads and 10 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     7.32ms    7.14ms  43.66ms   88.55%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  11733 requests in 10.01s, 11.14MB read
+Requests/sec:   1172.18
+Transfer/sec:      1.11MB
+
+
+Running 10s test @ http://localhost:9000/jsonList
+  2 threads and 10 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    11.07ms    3.66ms  21.19ms   64.39%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  9326 requests in 10.00s, 8.85MB read
+Requests/sec:    932.18
+Transfer/sec:      0.88MB
+
+
+Running 10s test @ http://localhost:9000/list
+  2 threads and 10 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    12.37ms    6.09ms  65.90ms   91.85%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  8244 requests in 10.00s, 37.11MB read
+Requests/sec:    824.27
+Transfer/sec:      3.71MB
