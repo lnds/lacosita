@@ -31,17 +31,20 @@ Resultados
 ==========
 
 Create:
+
 	Grails: 	91,37 request/sec generando 9.240 inserts
 	Scala-Play:   1285,51 request/sec generando 128.640 inserts
 
 
 
 List:
+
 	Grails:		88,85 request/sec
 	Scala-Play:    836,16 request/sec
 
 
 JsonList:
+
 	Grails:	        740,52 request/sec
 	Scala-Play:     984,82 request/sec
 
