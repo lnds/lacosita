@@ -15,7 +15,8 @@ Los frameworks a evaluar son:
 
 * Grails
 * Play con Scala
-* Play con Java
+* Play con Java (PENDIENTE)
+* NodeJs con Express
 
 Evaluaremos:
 
@@ -32,21 +33,22 @@ Resultados
 
 Create:
 
-	Grails: 	91,37 request/sec generando 9.240 inserts
+	Grails: 	    91,37 request/sec generando   9.240 inserts
 	Scala-Play:   1285,51 request/sec generando 128.640 inserts
-
-
+	NodeJs:		   898,73 request/sec generando  90.070 inserts
 
 List:
 
-	Grails:		88,85 request/sec
+	Grails:		    88,85 request/sec
 	Scala-Play:    836,16 request/sec
+	NodeJs:        231,35 request/sec
 
 
 JsonList:
 
 	Grails:	        740,52 request/sec
 	Scala-Play:     984,82 request/sec
+    NodeJs:        1092,56 request/sec
 
 
 Lineas de Código:
@@ -79,4 +81,16 @@ Scala-Play:
 	XML                              1              0              0              6
 	-------------------------------------------------------------------------------
 	SUM:                            12           1565            375           7829
+	-------------------------------------------------------------------------------
+
+NodeJs:
+
+	-------------------------------------------------------------------------------
+	Language                     files          blank        comment           code
+	-------------------------------------------------------------------------------
+	CSS                              5            977             42           6283
+	Javascript                       5            570            339           1508
+	HTML (Jade)                      4              8              0             61	
+	-------------------------------------------------------------------------------
+	SUM:                            14           1555            381           7852
 	-------------------------------------------------------------------------------
