@@ -90,3 +90,38 @@ Running 10s test @ http://localhost:9000/list
   8244 requests in 10.00s, 37.11MB read
 Requests/sec:    824.27
 Transfer/sec:      3.71MB
+
+-- Mon May 20 00:00:33 CLT 2013
+Finalmente me decidí a incluir un demo en nodejs.
+Empecé alrededor de las 21:00 y con la pausa para ver juego de tronos, terminé este ejemplo.
+Los tiempos:
+
+
+Running 10s test @ http://localhost:3000/create
+  2 threads and 10 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    12.92ms    6.84ms  42.86ms   81.34%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  8468 requests in 10.00s, 11.90MB read
+Requests/sec:    846.66
+Transfer/sec:      1.19MB
+
+
+Running 10s test @ http://localhost:3000/jsonList
+  2 threads and 10 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     9.00ms    3.01ms  18.69ms   70.90%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  11440 requests in 10.00s, 16.08MB read
+Requests/sec:   1143.80
+Transfer/sec:      1.61MB
+
+
+Running 10s test @ http://localhost:3000/list
+  2 threads and 10 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    44.50ms   17.65ms 184.96ms   85.93%
+    Req/Sec     0.00      0.00     0.00    100.00%
+  2292 requests in 10.00s, 5.66MB read
+Requests/sec:    229.15
+Transfer/sec:    579.00KB

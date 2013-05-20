@@ -1,0 +1,20 @@
+extends layout
+
+block content
+  include includes/navbar
+  div.container
+    div.row
+      div.span1
+        &nbsp;
+      div.span8
+        table.table.table-bordered.table-hover
+          thead
+             tr
+               th #
+               th Nombre
+               th Cuando
+             each dato in datos
+               tr
+                 td #{dato.codigo}
+                 td #{dato.nombre}
+                 td #{dato.cuando}
