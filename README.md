@@ -17,6 +17,7 @@ Los frameworks a evaluar son:
 * Play con Scala
 * Play con Java (PENDIENTE)
 * NodeJs con Express
+* Rails gracias al aporte de Aldrin Martoq
 
 Evaluaremos:
 
@@ -36,12 +37,14 @@ Create:
 	Grails: 	    91,37 request/sec generando   9.240 inserts
 	Scala-Play:   1285,51 request/sec generando 128.640 inserts
 	NodeJs:		   898,73 request/sec generando  90.070 inserts
+	Rails:			51,48 request/sec generando   5.240 inserts
 
 List:
 
 	Grails:		    88,85 request/sec
 	Scala-Play:    836,16 request/sec
 	NodeJs:        231,35 request/sec
+	Rails:			19,39 request/sec
 
 
 JsonList:
@@ -49,6 +52,7 @@ JsonList:
 	Grails:	        740,52 request/sec
 	Scala-Play:     984,82 request/sec
     NodeJs:        1092,56 request/sec
+    Rails:			133,16 request/sec
 
 
 Lineas de Código:
@@ -94,3 +98,19 @@ NodeJs:
 	-------------------------------------------------------------------------------
 	SUM:                            14           1555            381           7852
 	-------------------------------------------------------------------------------
+
+Rails:
+
+	-------------------------------------------------------------------------------
+	Language                     files          blank        comment           code
+	-------------------------------------------------------------------------------
+	Ruby                            29            119            217            244
+	HTML                            10             21              3            169
+	YAML                             4             19             60             49
+	CoffeeScript                     1              0              3              0
+	CSS                              1              0             13              0
+	Javascript                       1              0             15              0
+	-------------------------------------------------------------------------------
+	SUM:                            46            159            311            462
+	-------------------------------------------------------------------------------
+

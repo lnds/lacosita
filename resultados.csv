@@ -8,3 +8,6 @@ grails;jsonList;10;2;10;740,52;1,96mb;0
 nodejs;create;10;2;10;898,73;1,26mb;90070
 nodejs;list;10;2;10;231,35;584.67kb;0
 nodejs;jsonList;10;2;10;1092,56;1,54mb;0
+rails;create;10;2;10;51,48;85,57kb;5240
+rails;list;10;2;10;19,39;110,16kb;0
+rails;jsonList;10;2;10;133,16;221,14kb;0
