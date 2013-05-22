@@ -1,0 +1,12 @@
+.tags
+.tags_sorted_by_file
+
+### Laravel ###
+/vendor
+/bootstrap/compiled.php
+composer.phar
+composer.lock
+
+### SublimeText ###
+*.sublime-workspace
+*.sublime-project
