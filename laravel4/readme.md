@@ -1,6 +1,6 @@
 ## lacosita en Laravel 4.x
 
-Laravel 4 todabia se encuentra en beta y va a ser lanzado el 28 de mayo.
+Laravel 4 todavia se encuentra en beta y va a ser lanzado el 28 de mayo.
 
 ### Prerequisitos
 
