@@ -18,6 +18,7 @@ El numero aleatorio de N, para asignar el valor a codigo, fue sacado del ejemplo
 
 Las vistas siguieron el patron de los otros ejemplos, usando el template de laravel llamado Blade, separando el menu(navbar) y un template master.
 
+La base datos de Mongo se llama 'cosa-laravel' y la collection 'datos'.
 
 ### Ejecucion
 
