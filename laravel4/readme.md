@@ -23,7 +23,7 @@ Las vistas siguieron el patron de los otros ejemplos, usando el template de lara
 
 Asumiendo que se cuenta con Composer instalado global, se debe actualizar el proyecto para que descargue las dependencias mediante:
 
-`composer update`
+`composer install`
 
 Ahora basta iniciar el servidor de PHP (Se creara por defecto en localhost:8000) haciendo uso del comando:
 
